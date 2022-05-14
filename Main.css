@@ -1,0 +1,40 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+nav{
+    background-color: #e9e9e9;
+    min-width: 1200px;
+    height:33px;
+}
+.rightNav{
+    width: 125px;
+    font-size: 18px;
+    text-align: center;
+    margin: 5px;
+}
+#homeNav,#categoryNav,
+#contactNav{
+    text-decoration: none;
+    color:#2a2a2a;
+}
+a{
+    text-decoration: none;
+    color:#2a2a2a;
+}
+.rightNav>ul li{
+    list-style: none;
+    color: #2a2a2a;
+    background-color: #e9e9e9;
+    text-decoration: none;
+    height: 25px;
+    width: 100%;
+    z-index: 20;
+}
+.rightNav>ul>li{
+    display: none;
+}
+
+.active{
+    display: block !important;
+}
